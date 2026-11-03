@@ -6,3 +6,11 @@
 .screenshot-art>img{width:100%;height:100%;object-fit:cover;object-position:top center;display:block}
 .shot-label{position:absolute;inset:auto 0 0;padding:42px 28px 22px;background:linear-gradient(transparent,rgba(0,0,0,.85));color:white}
 .shot-label h3{font-size:clamp(21px,2.5vw,30px);line-height:1.15;margin:8px 0 0}
+
+/* Screenshot cards: images and titles occupy separate areas. */
+.screenshot-art{height:auto;min-height:0;padding:0;display:block;background:#fff;color:var(--ink)}
+.screenshot-art>img{width:100%;height:220px;object-fit:cover;object-position:top center;display:block}
+.screenshot-art .shot-label{position:static;inset:auto;padding:20px 24px;background:#fff;color:var(--ink)}
+.screenshot-art .shot-label small{display:block;color:#77976c;font-size:10px;font-weight:800;letter-spacing:1.5px}
+.screenshot-art .shot-label h3{font-size:clamp(20px,2vw,26px);line-height:1.25;letter-spacing:-.7px;margin:8px 0 0;max-width:none;overflow-wrap:anywhere}
+@media(max-width:550px){.screenshot-art>img{height:190px}.screenshot-art .shot-label{padding:18px 20px}}
