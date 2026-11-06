@@ -1,4 +1,4 @@
-# Mandla Lee — Web Design & Development
+# Phala Digital — Web Design & Development
 
 Portfolio website featuring five selected projects. 123Kasi intentionally excluded.
 
